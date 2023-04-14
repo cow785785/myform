@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+  width: 100%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+header .Login-Page {
+  margin-top: 130px;
+}
+header .text-area {
+  position: relative;
+}
+header .text-area input[type=email],
+header .text-area input[type=password] {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  padding-left: 30px; /* 加這一行，將左邊的 padding 調大，使得文字框向右移，讓信封圖案有空間顯示 */
+}
+header .fa-solid.fa-envelope {
+  position: absolute;
+  left: 10px; /* 將 left 屬性調整為 10px，使得信封圖案向右移，靠左中間位置 */
+  top: 33%; /* 加這一行，讓信封圖案垂直置中 */
+  transform: translateY(-50%); /* 加這一行，使用 translateY() 讓信封圖案垂直置中 */
+}
+header .fa-solid.fa-lock {
+  position: absolute;
+  left: 10px;
+  bottom: 8px;
+  transform: translateY(-50%);
+}
+header .login-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+header .keep-login {
+  display: flex;
+  align-items: center;
+}
+header .sing-up {
+  display: flex;
+  align-items: center;
+}
+header .singup {
+  background-color: gray;
+  color: aliceblue;
+}
+header .button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+header .button .loginbtn {
+  background-color: gray;
+  color: aliceblue;
+  width: 50%;
+  height: 30px;
+}/*# sourceMappingURL=loginstyle.css.map */
