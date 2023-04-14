@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./enrollstyle.css">
     <title>註冊畫面</title>
 </head>
 <body>
-    
+    <header>
+        <div class="top-area">
+            <h1>Sing Up Page</h1>
+        </div>
+    </header>
+    <main>
+        <div class="text-area">
+            <label for="Email">Email Account</label><br>
+            <i class="fa-solid fa-envelope"></i><input type="email" id="email" placeholder="ex:123@gmail.com" pattern="@gmail.com"><i class="fa-solid fa-question-circle"></i>
+            <br>
+            <label for="name">Nmae</label><br>
+            <i class="fa-solid fa-user"></i><input type="text" id="name" placeholder="Tasi Cheng-Yu"><i class="fa-solid fa-question-circle"></i>
+            <br>
+            <label for="password">Password</label><br>
+            <i class="fa-solid fa-lock"></i><input type="text" id="password" placeholder="ex:123456789" pattern="[0-9]{9}"><i class="fa-solid fa-question-circle"></i>
+            <br>
+            <label for="re-password">Repeat Password</label><br>
+            <i class="fa-sharp fa-solid fa-lock"></i><input type="text" id="re-password"><i class="fa-solid fa-question-circle"></i>
+        </div>
+    </main>
+    <footer>
+        <div class="end-area">
+            <input type="button" name="btn" class="btn" value="Sing up">
+        </div>
+    </footer>
 </body>
 </html>

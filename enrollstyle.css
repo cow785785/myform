@@ -1,1 +1,67 @@
-/*# sourceMappingURL=enrollstyle.css.map */
+@charset "UTF-8";
+body {
+  background-color: cadetblue;
+  width: 100%;
+}
+
+header h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+header .top-area {
+  margin-top: 100px;
+}
+
+main .text-area {
+  margin-left: 41%;
+  position: relative;
+}
+main .fa-solid.fa-envelope {
+  position: absolute;
+  left: 10px;
+  top: 16%;
+  transform: translateY(-50%);
+}
+main .fa-solid.fa-user {
+  position: absolute;
+  left: 10px;
+  top: 41%;
+  transform: translateY(-50%);
+}
+main .fa-solid.fa-lock {
+  position: absolute;
+  left: 10px;
+  top: 66%;
+  transform: translateY(-50%);
+}
+main .fa-sharp.fa-solid.fa-lock {
+  position: absolute;
+  left: 10px;
+  top: 91%;
+  transform: translateY(-50%);
+}
+main .fa-solid.fa-question-circle {
+  margin-left: -25px;
+  cursor: pointer;
+}
+main .text-area input[type=email],
+main .text-area input[type=name],
+main .text-area input[type=text],
+main .text-area input[type=text] {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  padding-left: 30px; /* 加這一行，將左邊的 padding 調大，使得文字框向右移，讓信封圖案有空間顯示 */
+}
+
+.end-area {
+  margin-top: 20px;
+  text-align: center;
+}
+.end-area .btn {
+  color: aliceblue;
+  background-color: rgb(42, 69, 70);
+  width: 10%;
+  height: 30px;
+}/*# sourceMappingURL=enrollstyle.css.map */
